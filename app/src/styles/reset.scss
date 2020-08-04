@@ -1,0 +1,83 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: 'Lora', 'Times New Roman', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-custom,
+.site-heading .subheading,
+.page-heading .subheading,
+.post-heading .subheading,
+.btn,
+.pager li>a,
+.pager li>span {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.small,
+small {
+    font-size: 85%;
+}
+
+hr.small {
+    max-width: 100px;
+    margin: 15px auto;
+    border-width: 4px;
+    border-color: #fff;
+}
+
+.header-font {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    color: #fff;
+    cursor: pointer;
+}
+
+.minwidth960 {
+    width: 960px;
+    margin: 0 auto;
+}
