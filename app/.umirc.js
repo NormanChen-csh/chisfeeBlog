@@ -4,13 +4,23 @@ export default {
   treeShaking: true,
   routes: [
     {
+      path: '/user',
+      component: '../layouts/normal',
+      routes: [
+        { 
+          name: 'login',
+          path: '/user/login', 
+          component: '../pages/User/login' },
+      ]
+    },
+    {
       path: '/',
       component: '../layouts/index',
       routes: [
         { path: '/', component: '../pages/home' },
         { path: '/articleDetail', component: '../pages/articleDetail' }
       ]
-    }
+    },
   ],
   alias: {'@': resolve(__dirname, './src')},
   plugins: [
